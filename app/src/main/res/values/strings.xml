@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crazy Alarm</string>
+    <string name="NewAlarm">+</string>
+    <string name="EditAlarm">Edit</string>
+    <string name="tv_add_alarm">Add Alarm</string>
+    <string name="button_set_alarm">Set ALarm</string>
+    <string name="alarm_content_title">Alarm</string>
+    <string name="answerHintText">Enter Your Answer Here</string>
+</resources>

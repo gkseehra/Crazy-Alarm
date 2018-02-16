@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gurleen.crazyalarm.SetAlarm"
+    android:orientation="vertical"
+    android:background="@color/LightGrey">
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeSet"
+        android:numbersSelectorColor="@color/BlueGrey"
+        android:amPmBackgroundColor="@color/BlueGrey"
+        android:headerBackground="@color/BlueGrey"
+        ></TimePicker>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_set_alarm"
+        android:id="@+id/b_setAlarm"
+        android:onClick="createAlarm"
+        android:background="@color/BlueGrey"
+        android:textColor="@color/White"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/b_cancelAlarm"
+        android:background="@color/BlueGrey"
+        android:textColor="@color/White"
+        android:onClick="cancelAlarm"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+
